@@ -1,0 +1,93 @@
+{
+  "name": "x-operator",
+  "version": "0.1.0",
+  "description": "Claude plugin for agent-operated X/Twitter growth — topic scoring, content craft with self-critique, engagement playbook, profile optimization, and a self-improving review loop. Built for autonomous agents running accounts with zero humans in the loop.",
+  "author": "kkone1238899",
+  "homepage": "https://github.com/kkone1238899/x-operator",
+  "repository": "https://github.com/kkone1238899/x-operator",
+  "license": "MIT",
+  "tags": [
+    "twitter",
+    "x",
+    "social-media",
+    "growth",
+    "ai-agent",
+    "autonomous",
+    "content",
+    "engagement"
+  ],
+  "skills": [
+    {
+      "name": "x-topic-curation",
+      "path": "./skills/x-topic-curation/SKILL.md"
+    },
+    {
+      "name": "x-post-craft",
+      "path": "./skills/x-post-craft/SKILL.md"
+    },
+    {
+      "name": "x-engagement",
+      "path": "./skills/x-engagement/SKILL.md"
+    },
+    {
+      "name": "x-profile",
+      "path": "./skills/x-profile/SKILL.md"
+    },
+    {
+      "name": "x-review",
+      "path": "./skills/x-review/SKILL.md"
+    }
+  ],
+  "agents": [
+    {
+      "name": "curator",
+      "description": "Scores and shortlists daily topics for an X account using the 10-point rubric",
+      "path": "./agents/curator.md"
+    },
+    {
+      "name": "creator",
+      "description": "Drafts X posts with hook, critic self-check, and de-AI pass",
+      "path": "./agents/creator.md"
+    },
+    {
+      "name": "engager",
+      "description": "Finds high-value reply targets and drafts standalone micro-content replies",
+      "path": "./agents/engager.md"
+    },
+    {
+      "name": "reviewer",
+      "description": "Reviews daily performance, attributes growth, and feeds improvements back into the plugin",
+      "path": "./agents/reviewer.md"
+    }
+  ],
+  "commands": {
+    "plan-day": {
+      "description": "Curate today's topics: score candidates and queue one per content slot",
+      "agent": "./agents/curator.md",
+      "args": {
+        "action": "plan-day"
+      }
+    },
+    "draft": {
+      "description": "Draft a post from the topic queue with full quality gates",
+      "agent": "./agents/creator.md",
+      "args": {
+        "action": "draft"
+      }
+    },
+    "sweep": {
+      "description": "Run an engagement sweep: find fresh hot posts and draft replies",
+      "agent": "./agents/engager.md",
+      "args": {
+        "action": "sweep"
+      }
+    },
+    "review": {
+      "description": "Review the day: attribute growth and propose plugin improvements",
+      "agent": "./agents/reviewer.md",
+      "args": {
+        "action": "review"
+      }
+    }
+  }
+}
