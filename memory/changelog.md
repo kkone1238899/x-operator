@@ -16,3 +16,11 @@ relevant skill or reference file as standing rules, and marked MERGED.
 - LESSON: Engagement replies must pass a standalone first-glance test; zero replies is a valid round.
 - EVIDENCE: Early operation data — late/generic replies sink with no views.
 - ACTION: Added to x-engagement skill. [MERGED]
+
+## 2026-10-07 (kk 4 directives)
+- LESSON: Engagement replies should soft-plug our open-source projects when the topic naturally overlaps (famous bloggers do this).
+- EVIDENCE: kk directive 2026-10-07 — "你看下他们下面盖楼的就知道很多知名博主都这样干".
+- ACTION: Added section 4 to skills/x-engagement/SKILL.md + projects: to config.example.yaml. [MERGED]
+- LESSON: A money-content operation needs a dedicated market radar — daily scan of AI money-making projects with HOW they did it, feeding curation.
+- EVIDENCE: kk directive 2026-10-07 — "要构建市场雷达，扫描最新通过AI挣钱的项目，分享他们是如何实现的".
+- ACTION: Added skills/x-market-radar/SKILL.md, registered in plugin.json, radar feeds x-topic-curation. [MERGED]
