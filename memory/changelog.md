@@ -37,3 +37,19 @@ relevant skill or reference file as standing rules, and marked MERGED.
 - LESSON: AIHOT's selection method upgrades our scoring: score twice independently with the same rubric (avg ≥7), source tiers (T1 first-party lower bar / T2 higher bar), cluster same-story into one event, heat = independent sources in 48h.
 - EVIDENCE: KKKKhazix/AIHOT docs/selection.md (MIT, 6.2k stars) — verified via repo read.
 - ACTION: x-topic-curation SKILL.md now: double-scoring, T1/T2 tiers, event clustering, queue entries carry score/tier/event id. [MERGED]
+
+## 2026-10-07 (daily review #1; cumulative reviews: 1/7 — no merge)
+- LESSON: Never publish the same topic twice in one day — check your own timeline for duplicates before publishing.
+- EVIDENCE: 2026-10-07 evening a16z post shipped 3 times within 21 minutes (two near-identical versions 22:09/22:30 + one quote-clarification 22:14), 7 views combined, zero engagement — on a low-weight account duplicate posting reads as a malfunction.
+- ACTION: Add to x-post-craft publishing checklist: read @Hjn8899 timeline before publishing; if the same topic was posted within 2h, stop and do not publish.
+- LESSON: Log landing is a hard deliverable of every publishing task — "unpublished + reason" counts as one row; the review trusts only the log.
+- EVIDENCE: 2026-10-07 noon blueV post (published, 17 views / 1 repost — best single post of the day), GitHub math video post, and the evening a16z posts all had zero rows in post_test_log.md; the 22:30 review had to reverse-engineer the timeline via browser read.
+- ACTION: In x-daily-post-noon / x-daily-post-evening / x-github-trending-video cron files, harden the "record" step: the task must append one row at the end (including unpublished + reason); missing log = task failure.
+- LESSON: Blogger blocks are an observable machine-account signal — if blocks hit >=2 in a week, auto-throttle engagement the next week.
+- EVIDENCE: Since 10-03, @op7418, @oran_ge, and @lidangzzz have each blocked @Hjn8899; @lidangzzz blocked within hours of our 13:47 Lean-post reply on 10-07.
+- ACTION: Add a "block circuit breaker" section to x-engagement SKILL.md: count blocks weekly; >=2 in a week -> next week max 1 reply per round, high-frequency bloggers only.
+
+## 2026-10-07 盖楼机械感纠偏（kk 直接纠偏）
+- LESSON: 盖楼回复的机械感不来自措辞，来自结构——"@人+摆数据+金句收尾"同一模板连用、从不站队、从不反驳，真人一眼看穿；英文回复同样会中招（破折号曾漏网）。
+- EVIDENCE: 2026-10-07 6 条回复原文审计：第 2 条（@btcmos）结尾"让 agent 全自动跑 X"话没说完；第 3 条（@lidangzzz）用了禁用的破折号 ——；第 1 条（@0427SMtieshou）通篇数据但无立场；kk 原话"发布的概率内容过于机械和AI化"。
+- ACTION: x-engagement SKILL.md 新增立场硬规则（每条必须三选一：赞同加码/反对给理由/补充关键缺失信息）、反模板规则（轮换结构，每轮 2 条不许同构）、结尾完整规则、允许轻度反驳；英文回复同样过 human-voice 硬规则。x-engagement-sweep 定时任务下次运行起生效。
