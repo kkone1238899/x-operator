@@ -36,11 +36,14 @@ Fewer than 3 → rework the angle or kill the topic.
 
 **Critic**: score the draft 0–10 on each — hook strength, information density, readability, credibility, account fit. Average <7 → rewrite once, then ship the better version.
 
-**De-AI pass** (from `references/human-voice.md`):
+**De-AI pass** (from `references/human-voice.md`, hardened with KKKKhazix/human-writing hard bans):
 - Delete filler connectors ("moreover", "it's worth noting", "in today's fast-paced…")
 - Break em-dash habits, triple parallelisms ("not X but Y", "not only… but also…"), vague attributions ("experts say")
+- Chinese posts: hard bans — no 中文冒号, no 破折号, no "不是……而是……" flip sentences, no "先说结论/说白了", no business jargon (赋能/抓手/闭环/底层逻辑/方法论/打法/链路…)
 - Vary sentence length — if three sentences in a row are the same length, break one
 - Keep the opinion and the "I". Cut anything that is technically true and completely boring.
+
+**Machine gate**: save the draft to a temp file and run `scripts/check_prose.py` on it (Chinese drafts). Fix every alert. Zero alerts → publish. Compression test: if deleting a third changes nothing, it's padded — rewrite.
 
 ## Output
 
