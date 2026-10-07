@@ -24,3 +24,8 @@ relevant skill or reference file as standing rules, and marked MERGED.
 - LESSON: A money-content operation needs a dedicated market radar — daily scan of AI money-making projects with HOW they did it, feeding curation.
 - EVIDENCE: kk directive 2026-10-07 — "要构建市场雷达，扫描最新通过AI挣钱的项目，分享他们是如何实现的".
 - ACTION: Added skills/x-market-radar/SKILL.md, registered in plugin.json, radar feeds x-topic-curation. [MERGED]
+
+## 2026-10-07 (kk recommended KKKKhazix/human-writing)
+- LESSON: human-writing's hard bans + automated checker are a stronger de-AI gate than our manual checklist alone.
+- EVIDENCE: kk sent repo https://github.com/KKKKhazix/human-writing (MIT, ~4k stars); check_prose.py verified working locally — caught every violation in a test post.
+- ACTION: Vendored scripts/check_prose.py (MIT attribution kept); hardened references/human-voice.md with hard bans (中文冒号/破折号/翻案句/"先说结论"/商业黑话） + 材料规则 + 压缩试验；x-post-craft and x-engagement skills now require running the checker; local crons (noon/evening posts, engagement sweep) updated to run it before publishing. [MERGED]
