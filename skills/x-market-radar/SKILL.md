@@ -14,13 +14,13 @@ Fresh money cases are the highest-leverage content fuel. This skill finds them a
 
 ## Procedure
 
-### 1. Scan X (last 24h)
+### 1. Scan the hotspot layer (last 24h)
 
-Check monetization-focused creators (indie hackers who post revenue, builders sharing numbers) for new posts about earnings, launches, or pricing experiments. Also sweep high-engagement money-topic posts in the niche.
+Start with `references/hotspot-sources.md`: sopilot (X taking off), tophub (cross-platform), newsnow (real-time), aihot.news (AI vertical). Filter for money angles — new paid AI products, revenue posts, pricing experiments.
 
-### 2. Scan the web (last 24–48h)
+### 2. Scan X money posters + the web (last 24–48h)
 
-Search for newly launched AI products with revenue, indie hackers shipping paid products, AI tools that started making money. Prioritize items with numbers.
+Check monetization-focused creators (indie hackers who post revenue, builders sharing numbers) for new posts about earnings, launches, or pricing experiments. Also web-search newly launched AI products with revenue. Prioritize items with numbers.
 
 ### 3. Record each find
 
@@ -33,9 +33,9 @@ For every project, write:
 
 Rules: no verified launch facts → don't record it. Can't reconstruct the how → mark it and move on, never invent. Skip off-niche and red-line topics.
 
-### 4. File it
+### 4. Cluster, then file
 
-Append to the radar log (dated section, `# YYYY-MM-DD`). Tag each entry `` (strong topic candidate) or `` (record only).
+Same story from multiple sources = one event (heat = independent source count). Append to the radar log (dated section, `# YYYY-MM-DD`). Tag each entry 【推荐选题】 (strong topic candidate) or 【仅记录】 (record only).
 
 ## Output
 
