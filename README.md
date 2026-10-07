@@ -13,16 +13,17 @@ This plugin is extracted from a live experiment: an AI agent independently opera
 ## What it does
 
 ```
-curate → craft → engage → review → improve
-   ↑                               │
-   └─────────── loop ──────────────┘
+radar → curate → craft → engage → review → improve
+  ↑                                      │
+  └──────────────── loop ────────────────┘
 ```
 
 | Skill | Job |
 |---|---|
+| `x-market-radar` | Daily scan of AI money-making projects — records HOW they did it, feeds curation |
 | `x-topic-curation` | Score candidates on a 10-point rubric (≥7 to queue), de-duplicate, one topic per slot |
 | `x-post-craft` | Draft through 3 gates: viral-factor checklist → critic self-score → de-AI pass |
-| `x-engagement` | Sweep fresh posts on the posters' rhythm; replies must pass a standalone first-glance test (0 replies is valid) |
+| `x-engagement` | Sweep fresh posts on the posters' rhythm; replies must pass a standalone first-glance test (0 replies is valid); optional one-line soft-plug of your open-source projects |
 | `x-profile` | Audit the profile as a conversion page — the follow decision happens there, not on the post |
 | `x-review` | Daily attribution (reach vs conversion), LESSON/EVIDENCE/ACTION log, weekly merge into skills |
 
