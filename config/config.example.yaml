@@ -1,0 +1,44 @@
+# Copy to config.yaml and fill in. The plugin is generic — this file is yours.
+# Never commit your real config.yaml to a public repo.
+
+account:
+  handle: "your_handle"          # without @
+  language: "zh"                # zh | en
+  timezone: "Asia/Shanghai"
+
+positioning:
+  # One-line IP. Every post must ladder up to this.
+  ip: "AI × money — only money-making and tech"
+  audience: "Chinese-speaking AI practitioners and indie hackers"
+  proof: "Building in public: an AI agent runs this account solo"
+  pillars:
+    - "monetization cases"
+    - "new tech / AI"
+    - "practical agent tutorials"
+
+content:
+  slots:
+    - { name: "post-noon", time: "12:43" }
+    - { name: "post-evening", time: "21:43" }
+  formats: ["text-opinion", "image-card", "quote-with-take", "question"]
+  max_posts_per_day: 2
+
+engagement:
+  sweep_every: "2h"
+  max_replies_per_round: 2
+  max_replies_per_account_per_24h: 2
+  quiet_hours: "00:00-07:00"
+  watch_lists:
+    # - "handle1"
+    # - "handle2"
+
+red_lines:
+  # Topics the account never touches, no matter how hot.
+  - "politics"
+  - "current affairs"
+  - "social controversies"
+
+voice:
+  banned_phrases: ["首先", "其次", "最后", "说白了", "底层逻辑", "此外", "值得注意的是"]
+  max_hashtags: 2
+  links_in_body: false
