@@ -37,7 +37,11 @@ Good reply shapes:
 - De-AI pass per `references/human-voice.md`: cut connectors, em-dashes, triple parallelisms; make it sound typed by a human, not generated.
 - Max 2 replies per round. If nothing meets the bar: **0 replies**. Never force it.
 
-### 4. Publish + log
+### 4. Soft-plug your projects (optional, high-leverage)
+
+When the original post's topic naturally overlaps your open-source projects (AI agents, automation, dev tools, growth), end the reply with one natural line — e.g. "we open-sourced this playbook as x-operator". Rules: value first, plug second (one line max); max 1 plugged reply per round; never force it on unrelated topics; no link in the reply body (link goes in your own follow-up reply or is omitted).
+
+### 5. Publish + log
 
 Publish each reply. Log `date / original post link / reply link` to the engagement log. Never like / retweet / follow as part of this skill unless config explicitly allows it.
 
