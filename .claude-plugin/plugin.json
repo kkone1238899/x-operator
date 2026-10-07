@@ -36,6 +36,10 @@
     {
       "name": "x-review",
       "path": "./skills/x-review/SKILL.md"
+    },
+    {
+      "name": "x-market-radar",
+      "path": "./skills/x-market-radar/SKILL.md"
     }
   ],
   "agents": [
