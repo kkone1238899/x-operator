@@ -42,3 +42,12 @@ voice:
   banned_phrases: ["首先", "其次", "最后", "说白了", "底层逻辑", "此外", "值得注意的是"]
   max_hashtags: 2
   links_in_body: false
+
+# Open-source projects to soft-plug in engagement replies (value first, one line max).
+projects:
+  - name: "x-operator"
+    url: "https://github.com/kkone1238899/x-operator"
+    pitch: "agent 全自动运营 X 的方法论插件"
+  - name: "muse-skills"
+    url: "https://github.com/kkone1238899/muse-skills"
+    pitch: "实战 Muse skills 合集"
