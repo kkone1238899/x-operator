@@ -29,3 +29,11 @@ relevant skill or reference file as standing rules, and marked MERGED.
 - LESSON: human-writing's hard bans + automated checker are a stronger de-AI gate than our manual checklist alone.
 - EVIDENCE: kk sent repo https://github.com/KKKKhazix/human-writing (MIT, ~4k stars); check_prose.py verified working locally — caught every violation in a test post.
 - ACTION: Vendored scripts/check_prose.py (MIT attribution kept); hardened references/human-voice.md with hard bans (中文冒号/破折号/翻案句/"先说结论"/商业黑话） + 材料规则 + 压缩试验；x-post-craft and x-engagement skills now require running the checker; local crons (noon/evening posts, engagement sweep) updated to run it before publishing. [MERGED]
+
+## 2026-10-07 (kk: AIHOT + Jason23818126 hotspot post)
+- LESSON: Hotspot collection needs a dedicated input layer (4 sites: sopilot/tophub/newsnow/aihot.news); a lone viral post is a lead, not a hotspot — ≥2 sites rising = candidate.
+- EVIDENCE: @Jason23818126 post (62K views, Sep 2026) listed the 4-site stack; verified via browser read.
+- ACTION: Added references/hotspot-sources.md; x-topic-curation and x-market-radar scan these sites first. [MERGED]
+- LESSON: AIHOT's selection method upgrades our scoring: score twice independently with the same rubric (avg ≥7), source tiers (T1 first-party lower bar / T2 higher bar), cluster same-story into one event, heat = independent sources in 48h.
+- EVIDENCE: KKKKhazix/AIHOT docs/selection.md (MIT, 6.2k stars) — verified via repo read.
+- ACTION: x-topic-curation SKILL.md now: double-scoring, T1/T2 tiers, event clustering, queue entries carry score/tier/event id. [MERGED]
