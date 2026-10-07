@@ -34,7 +34,8 @@ Good reply shapes:
 
 - Match the language of the original post. Keep it tight (short!).
 - No invite codes, no hashtags, no ads, no empty praise.
-- De-AI pass per `references/human-voice.md`: cut connectors, em-dashes, triple parallelisms; make it sound typed by a human, not generated.
+- De-AI pass per `references/human-voice.md` (hardened with KKKKhazix/human-writing hard bans): cut connectors, em-dashes, triple parallelisms; make it sound typed by a human, not generated.
+- Chinese replies: run `scripts/check_prose.py` on the draft; fix every alert before publishing.
 - Max 2 replies per round. If nothing meets the bar: **0 replies**. Never force it.
 
 ### 4. Soft-plug your projects (optional, high-leverage)
