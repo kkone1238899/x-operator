@@ -42,6 +42,17 @@ For topic curation this means: don't queue 3 topics that are the same story. Que
 
 Keep a labeled set of past topics: "picked right / picked wrong" (your daily review already produces this). When a type keeps mis-scoring, fix the rubric wording for that type first — moving the threshold only shifts everything.
 
+## Frontier signals — daily watch (kk 2026-10-07: 重点盯)
+
+Frontier AI companies and investors publish original developments and insights daily. These are raw material for posts AND engagement targets (their high-reach posts are prime 盖楼 spots).
+
+| Channel | What it gives you |
+|---|---|
+| X `@a16z` | a16z's takes on AI companies, investments, new essays — high authority, high reach |
+| `a16z.com` essays | Long-form theses on where AI is going — source of *angles*, not just news |
+
+Rules: their own announcement/essay = T1 (first-party, lower bar). Partner personal hot takes = T2. Same pattern applies to other frontier labs/VCs — add them the same way.
+
 ## What this changes for us
 
 - Topic queue entries get: two scores (avg), source tier, event id (same story = same id).
