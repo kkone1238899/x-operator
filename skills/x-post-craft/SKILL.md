@@ -24,6 +24,20 @@ Takes a queued topic (hook + angle + source) and produces a publish-ready post. 
 
 Fewer than 3 → rework the angle or kill the topic.
 
+### Gate 1.5 — 标题钩子三选一 + 营销时机（kk 2026-10-08：要懂营销，标题决定生死，时机决定热度）
+
+**标题钩子必须三占其一**（只满足"首句≤15字"不够，还要有钩子类型）：
+- **具体数字**：反直觉的数字（"4.5% 的人在为 AI 付费"、"2 个月 $69K/月"）——数字越具体越像真事；
+- **强烈反差**：预期违背（"50 个最赚钱 AI，29 个你没听过"、"流量≠收入"）；
+- **悬念钩子**：开环不闭环（"16 块 3 个月蓝 V，羊毛还是坑？"），答案放正文。
+三者全无 → 回炉重想标题，不许带着平标题进 Gate 2。
+
+**营销时机矩阵**（什么信息什么时候发）：
+- 突发热点（首发 2h 内）→ 快讯直发，抢首发窗口，1 小时内必须发出；
+- 正在发酵（2–12h）→ 盖楼早回复 + 午间/晚间档锐评，借现成流量；
+- 发酵透了（12h+）→ 不做纯新闻，只做收藏型清单/拆解（换角度吃长尾）；
+- 固定栏目（GitHub 最火、Muse 每日一招）→ 固定档，不追热点。
+
 ### Gate 2 — Draft
 
 - Human voice, per `references/human-voice.md`. Read it out loud: if it sounds like a press release, rewrite.
