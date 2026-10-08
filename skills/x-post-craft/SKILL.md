@@ -15,6 +15,12 @@ Takes a queued topic (hook + angle + source) and produces a publish-ready post. 
 
 ## Procedure
 
+### Gate 0 — 利他测试（kk 2026-10-08：有利他的逻辑粉丝才多，这是第一性原理）
+
+动笔前先回答一句话：**读者看完能拿走什么？** 答不上来就不写。
+能拿走的东西越具体越好：一个可复制的方法、一份整理好的名单、一组反直觉的数字、一个能避的坑。
+"显得我很懂"不算利他，"让读者变强"才算。所有 Gate 1–3 的判断都服从这一条。
+
 ### Gate 1 — Viral-factor checklist (need ≥3)
 
 1. **Demand**: pain / itch / pleasure point — at least one, felt by the reader *right now*
