@@ -58,3 +58,19 @@ relevant skill or reference file as standing rules, and marked MERGED.
 - LESSON: 热点有半衰期，等固定档（午间/晚间）再发等于把首发让给别人；标题只满足"首句≤15字"不够，必须有钩子类型（数字/反差/悬念）才有点击。
 - EVIDENCE: kk 原话"你要懂得营销…发现了好的咨询马上发，还等，下一秒别人发出来了"；昨日 a16z 榜单从发现到发出隔了 14 小时。
 - ACTION: ① x-engagement-sweep 加"快讯直发"规则——侦察中发现 2h 内首发、≥2 独立来源（或大号 1h 内起量）、对口、未发过的好资讯，当场发快讯帖（每天最多 1 条，不占午晚两档，发前先查时间线防重复）；② x-post-craft 加 Gate 1.5：标题钩子三选一（具体数字/强烈反差/悬念钩子）+ 营销时机矩阵（突发→快讯直发；发酵中→盖楼+档期锐评；发酵透→只做收藏型；固定栏目→固定档）。
+
+## 2026-10-08 (daily review #2; cumulative reviews: 2/7 — no merge)
+- LESSON: "Attached" is not published — before publishing a video post, confirm triple media presence in the composer (DOM file input non-empty / blue processing indicator / thumbnail preview); on "Choose Files: No file chosen", stop and do not retry, route the master to x-video-backfill or the phone version.
+- EVIDENCE: 2026-10-06 and 2026-10-08 identical symptom: the upload tool reported attached (EP08 446KB, valid grant) while the composer stayed empty and the Post button disabled; stopping per the tool-chain-failure rule kept the account clean (no CAPTCHA/rate-limit/abnormality).
+- ACTION: Add a "media triple-confirm" step to the x-post-craft publishing checklist; failure path routes to x-video-backfill (daily 15:00) or the 720p phone version.
+- LESSON: When the evening slot publishes, quote-retweet today's best post (>6h old) with a short comment to cover a new timezone — execute the "best-post quote" tactic as a standing check.
+- EVIDENCE: 2026-10-08 21:49 slot quote-retweeted the 12:46 noon post (the day's best, 18 views at the time) with "对照今晚那条看。" — two posts complement each other (threshold formula -> income ranking).
+- ACTION: Add a "same-day quote-retweet" checkpoint to x-post-craft: if the noon post is >6h old and is the day's best, quote it with a ≤15-char comment at the evening slot.
+- LESSON: Engagement replies with a real stance (agree-and-amplify / rebut with reasons / add missing info) look safer than the old "data + golden line" template — early signal, not yet a rule.
+- EVIDENCE: 10-03 to 10-07 saw 3 blocks in 4 days (@op7418, @oran_ge, @lidangzzz); 2026-10-08's 12 replies each had a distinct stance and structure, and zero new blocks were observed across all 7 rounds.
+- ACTION: Keep executing the stance rule; if zero blocks hold for 3 consecutive days, merge it as a standing rule.
+
+## 2026-10-08 利他第一性原理（kk 指令）
+- LESSON: 涨粉的根不是技巧，是利他——读者能拿走东西才会关注；"显得我很懂"的内容都是自嗨。
+- EVIDENCE: kk 原话"一定要有利他的逻辑这样粉丝才多"；今日 Skills 导航（24 仓库按职业分类）是利他逻辑的正例。
+- ACTION: x-post-craft 新增 Gate 0 利他测试——动笔前必须回答"读者看完能拿走什么"，答不上来不写；所有选题/生产/盖楼判断服从此条。
