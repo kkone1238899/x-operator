@@ -79,3 +79,8 @@ relevant skill or reference file as standing rules, and marked MERGED.
 - LESSON: 价值是 1，曝光是 0。Luna 2026-10-10 曾误判"死在冷启动流量上"——kk 纠正：核心是制作有价值的内容，否则再多曝光不长久；有价值的内容盖楼去也不会引发反感。4 天被拉黑 3 次的真正原因是回复对楼主/读者价值不够，不是借流量行为本身错。
 - EVIDENCE: kk 原话；被拉黑记录 @op7418/@oran_ge/@lidangzzz。
 - ACTION: x-post-craft Gate 0 升级为价值第一性原理——动笔前必答两问（读者拿走什么？楼主会觉得对读者有用吗？），缺一不写；所有选题/生产/盖楼判断服从此条。
+
+## 2026-10-10 价值沉淀三层模型（kk 指令）
+- LESSON: 目标客户定为"想用 AI 搞钱的人（全球）"；帖子是流水，沉淀才是存量——有价值的内容必须进可积累的资产，否则做一条忘一条。
+- EVIDENCE: kk 原话；awesome-x-skills 已验证"导航即价值"（2026-10-08 thread）。
+- ACTION: strategy_notes.md 新增三层沉淀模型（原料/资产/账号）+ 铁律"每条内容先定沉淀去向"；生产任务后续接"沉淀去向"字段。
